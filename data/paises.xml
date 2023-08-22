@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <Suiza>
+    <nombre>Suiza</nombre>
+    <plato_tipico>Fondue</plato_tipico>
+    <plato_tipico>Raclette</plato_tipico>
+    <plato_tipico>Rösti</plato_tipico>
+    <plato_tipico>Zürcher Geschnetzeltes</plato_tipico>
+    <plato_tipico>Bircher Müesli</plato_tipico>
+    <moneda>Franco suizo</moneda>
+    <bandera>img/suiza.jpg</bandera>
+    <provincias>
+      <Zúrich>
+        <nombre>Zúrich</nombre>
+        <numCiudades>26</numCiudades>
+        <ciudades>
+          <ciudad>
+            <nombre>Zúrich</nombre>
+            <CodigoPostal>8001</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Winterthur</nombre>
+            <CodigoPostal>8400</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Uster</nombre>
+            <CodigoPostal>8610</CodigoPostal>
+          </ciudad>
+        </ciudades>
+      </Zúrich>
+      <Friburgo>
+        <nombre>Friburgo</nombre>
+        <numCiudades>9</numCiudades>
+        <ciudades>
+          <ciudad>
+            <nombre>Friburgo</nombre>
+            <CodigoPostal> 1700</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Bulle</nombre>
+            <CodigoPostal>1630</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Romont</nombre>
+            <CodigoPostal>1680</CodigoPostal>
+          </ciudad>
+        </ciudades>
+      </Friburgo>
+      <Glaris>
+        <nombre>Glaris</nombre>
+        <numCiudades>11</numCiudades>
+        <ciudades>
+          <ciudad>
+            <nombre>Marly</nombre>
+            <CodigoPostal>1723</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Payerne</nombre>
+            <CodigoPostal>1530</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Givisiez</nombre>
+            <CodigoPostal>1762</CodigoPostal>
+          </ciudad>
+        </ciudades>
+      </Glaris>
+    </provincias>
+  </Suiza>
+
+
+  <Inglaterra>
+    <nombre>Inglaterra</nombre>
+    <plato_tipico>Fish and Chips</plato_tipico>
+    <plato_tipico>Roast Beef</plato_tipico>
+    <plato_tipico>Full English Breakfast</plato_tipico>
+    <plato_tipico>Shepherd's Pie</plato_tipico>
+    <moneda>Libra esterlina</moneda>
+    <bandera>img/inglaterra.png</bandera>
+    <provincias>
+      <Londres>
+        <nombre>Londres</nombre>
+        <numCiudades>32</numCiudades>
+        <ciudades>
+          <ciudad>
+            <nombre>Londres</nombre>
+            <CodigoPostal>SW1A</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Manchester</nombre>
+            <CodigoPostal>M1</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Birmingham</nombre>
+            <CodigoPostal>B1</CodigoPostal>
+          </ciudad>
+        </ciudades>
+      </Londres>
+      <Sureste>
+        <nombre>Sureste</nombre>
+        <numCiudades>15</numCiudades>
+        <ciudades>
+          <ciudad>
+            <nombre>Brighton</nombre>
+            <CodigoPostal>BN1</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Canterbury</nombre>
+            <CodigoPostal>CT1</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Oxford</nombre>
+            <CodigoPostal>OX1</CodigoPostal>
+          </ciudad>
+        </ciudades>
+      </Sureste>
+      <Noroeste>
+        <nombre>Noroeste</nombre>
+        <numCiudades>12</numCiudades>
+        <ciudades>
+          <ciudad>
+            <nombre>Liverpool</nombre>
+            <CodigoPostal>L1</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Manchester</nombre>
+            <CodigoPostal>M1</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Blackpool</nombre>
+            <CodigoPostal>BL1</CodigoPostal>
+          </ciudad>
+        </ciudades>
+      </Noroeste>
+    </provincias>
+  </Inglaterra>
+
+  <España>
+    <nombre>España</nombre>
+    <plato_tipico>Paella</plato_tipico>
+    <plato_tipico>Tortilla Española</plato_tipico>
+    <plato_tipico>Jamon Ibérico</plato_tipico>
+    <plato_tipico>Gazpacho</plato_tipico>
+    <moneda>Euro</moneda>
+    <bandera>img/espana1.png</bandera>
+    <provincias>
+      <Comunidad_de_Madrid>
+        <nombre>Comunidad de Madrid</nombre>
+        <numCiudades>1</numCiudades>
+        <ciudades>
+          <ciudad>
+            <nombre>Madrid</nombre>
+            <CodigoPostal>28001</CodigoPostal>
+          </ciudad>
+        </ciudades>
+      </Comunidad_de_Madrid>
+
+      <Cataluña>
+        <nombre>Cataluña</nombre>
+        <numCiudades>4</numCiudades>
+        <ciudades>
+          <ciudad>
+            <nombre>Barcelona</nombre>
+            <CodigoPostal>08001</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Girona</nombre>
+            <CodigoPostal>17001</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Lleida</nombre>
+            <CodigoPostal>25001</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Tarragona</nombre>
+            <CodigoPostal>43001</CodigoPostal>
+          </ciudad>
+        </ciudades>
+      </Cataluña>
+
+      <Andalucía>
+        <nombre>Andalucía</nombre>
+        <numCuidades>8</numCuidades>
+        <ciudades>
+          <ciudad>
+            <nombre>Sevilla</nombre>
+            <CodigoPostal>41001</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Málaga</nombre>
+            <CodigoPostal>29001</CodigoPostal>
+          </ciudad>
+          <ciudad>
+            <nombre>Granada</nombre>
+            <CodigoPostal>18001</CodigoPostal>
+          </ciudad>
+        </ciudades>
+      </Andalucía>
+    </provincias>
+  </España>
+</root>

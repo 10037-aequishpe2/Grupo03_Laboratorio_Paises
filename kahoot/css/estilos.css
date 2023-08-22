@@ -1,0 +1,121 @@
+/* Estilos generales */
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background-color: #2c3e50;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ecf0f1;
+}
+
+.form-check-label {
+  font-size: 20px;
+  color: #ecf0f1;
+}
+
+/* Estilos de botones */
+.btn-primary {
+  background-color: #a09820;
+  border-color: #e74c3c;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #c0392b;
+  border-color: #c0392b;
+}
+
+/* Estilos para opciones */
+.form-check-input {
+  margin-right: 10px;
+}
+
+/* Estilos para respuestas correctas e incorrectas */
+.respuesta-correcta {
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+.respuesta-incorrecta {
+  color: #e74c3c;
+  font-weight: bold;
+}
+/* Agregar transición a las opciones */
+.form-check {
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.form-check:hover {
+  background-color: #34495e;
+  transform: scale(1.05);
+}
+
+/* Agregar animación al mostrar la siguiente pregunta */
+.card {
+  animation: fadeInUp 0.5s ease both;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Personaliza el botón "Comenzar el juego" */
+#form-nombre button {
+  background-color: #FF5733; /* Color naranja */
+  border-color: #FF5733; /* Color del borde */
+}
+
+#form-nombre button:hover {
+  background-color: #E5491E; /* Color naranja más oscuro al pasar el cursor */
+  border-color: #E5491E;
+}
+
+/* Estilos para posicionar el botón en la mitad de la página */
+#form-nombre button {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  bottom: 30vh; /* Ajusta la distancia desde abajo */
+  transform: translateX(-50%);
+}
+
+/* Estilos para el efecto de resplandor neón en el botón "Comenzar juego" */
+.btn-neon {
+  position: relative;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  overflow: hidden;
+}
+

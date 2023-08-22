@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de Países en Europa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('../img/fondo.jpg'); /* Ruta de tu imagen de fondo */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: #433912;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .country-card {
+            border: 2px solid #ff6600;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .country-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+        }
+        .country-info {
+            margin-left: 20px;
+        }
+        .country-flag {
+            width: 120px;
+            height: auto;
+        }
+        h2 {
+            margin: 0;
+            color: #ff6600;
+            font-size: 1.8rem;
+        }
+        p {
+            margin: 5px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="country-card">
+        <img src="../img/suiza.jpg" alt="Suiza" class="country-flag">
+        <div class="country-info">
+            <h2>Suiza</h2>
+            <p>Presidente: Guy Parmelin</p>
+            <p>Plato Típico: Fondue de queso, Rösti</p>
+            <p>Moneda: Franco suizo</p>
+            <p>Ciudades: Appenzell Rodas, Argovia, Obwalden</p>
+        </div>
+    </div>
+
+    <div class="country-card">
+        <img src="../img/espana1.png" alt="España" class="country-flag">
+        <div class="country-info">
+            <h2>España</h2>
+            <p>Presidente: Pedro Sánchez</p>
+            <p>Plato Típico: Paella, Tapas</p>
+            <p>Moneda: Euro</p>
+            <p>Ciuades: Valencia, Cataluña, Madrid</p>
+        </div>
+    </div>
+
+    <div class="country-card">
+        <img src="../img/inglaterra.png" alt="Inglaterra" class="country-flag">
+        <div class="country-info">
+            <h2>Inglaterra</h2>
+            <p>Presidente: Boris Johnson</p>
+            <p>Plato Típico: Sunday roast,Chips</p>
+            <p>Moneda: Libra esterlina</p>
+            <p>Ciudades: Londres, Liverpool, Oxford</p>
+        </div>
+    </div>
+</body>
+</html>
